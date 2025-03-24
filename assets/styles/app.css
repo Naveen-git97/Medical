@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import './components/index.css';
+@import './template/index.css';
+@import './vendors/index.css';
+@import './tailwind/index.css';
+
+.rpv-core__viewer {
+    @apply bg-[#1a1a1a] h-full block
+}
+
+.rpv-core__inner-page {
+    @apply h-full flex flex-1
+}
+
+.rpv-toolbar {
+    /* @apply w-[20px] */
+}
